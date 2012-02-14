@@ -3,3 +3,8 @@ Change-log for django-live-server.
 This file will be added to as part of each release
 
 ----
+
+Version 0.1.0 (first version), Tue 14 Feb 2012
+===============================================
+
+
