@@ -59,7 +59,7 @@ class StoppableWSGIServer(WSGIServer):
     """
 
     def __init__(self, *args, **kwargs):
-        super(StoppableWSGIServer, self).__init__(*args, **kwargs)
+        WSGIServer.__init__(self, *args, **kwargs)
         self.__is_shut_down = _ImprovedEvent()
         self.__serving = False
 
