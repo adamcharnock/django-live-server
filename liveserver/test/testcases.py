@@ -12,6 +12,7 @@ from django.core.handlers.wsgi import WSGIHandler
 from django.core.servers.basehttp import (WSGIRequestHandler, WSGIServer)
 from django.db import connections
 from django.views.static import serve
+from django.test.testcases import TransactionTestCase
 
 
 class QuietWSGIRequestHandler(WSGIRequestHandler):
