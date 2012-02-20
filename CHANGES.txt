@@ -4,6 +4,12 @@ This file will be added to as part of each release
 
 ----
 
+Version 0.1.2, Mon 20 Feb 2012
+===============================
+
+45ec015d2a	Adding missing package to setup.py (Adam Charnock)
+
+
 Version 0.1.1, Wed 15 Feb 2012
 ===============================
 
