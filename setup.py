@@ -9,7 +9,7 @@ setup(
     maintainer='Adam Charnock',
     maintainer_email='adam@playnice.ly',
     # If you had liveserver.tests, you would also include that in this list
-    packages=['liveserver'],
+    packages=['liveserver', 'liveserver.test'],
     # Any executable scripts, typically in 'bin'. E.g 'bin/do-something.py'
     scripts=[],
     # REQUIRED: Your project's URL
